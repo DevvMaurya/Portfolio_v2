@@ -38,6 +38,6 @@
 .card:hover
 {
     font-size: 30px;
-    background-color: rgb(35, 255, 171);
     text-decoration: underline;
+    background-color: rgb(35, 255, 171);
 }
