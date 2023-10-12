@@ -50,7 +50,7 @@ height: 8vh;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 18px;
-    margin: 16px;
+    margin: 6px;
     padding: 12px;
     /* background-color: cornflowerblue; */
     cursor: pointer;
@@ -80,7 +80,11 @@ height: 8vh;
 .box_right
 {
     position: relative;
+    /* right: -20%; */
     width: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     /* background-color: brown; */
 }
 .box_left .content
@@ -90,11 +94,12 @@ height: 8vh;
 .box_left .content h2
 {
     line-height: 12vh;
-    font-size: 120px;
+    font-size: 15vh;
     padding-bottom: 20px;
 }
 .box_left .content h4{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 5vh;
     text-shadow:1px 1px 1px  rgb(176, 172, 172);
     color: rgb(234, 234, 0);
     padding-bottom: 20px;
