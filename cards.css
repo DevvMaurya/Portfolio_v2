@@ -1,7 +1,7 @@
 .cards{
     background-color: rgb(244, 249, 237);
-    /* height: max-content; for mobile */
-    height: 92vh;
+    height: max-content; 
+/*     height: 92vh; */
     padding: 25px;
     display: inline-flex;
     flex-wrap: wrap;
