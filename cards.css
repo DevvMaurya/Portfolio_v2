@@ -12,8 +12,8 @@
 .card
 {
     margin: 8px;
-    height: 300px;
-    width: 300px; 
+    height: 37.5vh;
+    width: 37.5vh; 
     border:  solid greenyellow;
     box-shadow: 1px 1px 10px aquamarine;
     border-radius: 12px;
@@ -21,9 +21,11 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+
 }
 .card img
 {
+    margin-left: 10px;
     width: 12vh;
 }
 .card_mode
@@ -35,5 +37,6 @@
 .card:hover
 {
     font-size: 30px;
+    text-decoration: underline;
     background-color: rgb(35, 255, 171);
 }
